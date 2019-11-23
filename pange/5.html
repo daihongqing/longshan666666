@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>发展脉络</title>
-    <link rel="stylesheet" href="../node_modules/element-ui/lib/theme-chalk/index.css">
+    <link rel="stylesheet" href="../element-ui/lib/theme-chalk/index.css">
     <style>
      body {
         background: #eee;
@@ -91,7 +91,14 @@
 </body>
 
 </html>
-<script src="../node_modules/vue/dist/vue.js"></script>
-<script src="../node_modules/element-ui/lib/index.js"></script>
-
-<script src="../Vue/1.vue"></script>
+<script src="../js/vue.js"></script>
+<script src="../element-ui/lib/index.js"></script>
+<script>
+    let vm = new Vue({
+          el: '.app',
+          data: {
+              activeName: '1'
+          }
+      });
+  
+  </script>
